@@ -10,7 +10,7 @@ resource "aws_security_group" "lb" {
     protocol    = "tcp"
     from_port   = var.lb-port
     to_port     = var.lb-port
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = ["103.43.112.97/32"]
 
   }
 

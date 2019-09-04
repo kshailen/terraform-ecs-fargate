@@ -1,7 +1,7 @@
 # ecs.tf
 
 resource "aws_ecs_cluster" "main" {
-  name = "event-notify-cluster"
+  name = "${var.app-name}-cluster"
 }
 
 data "template_file" "event-notify_app" {

@@ -20,6 +20,7 @@ variable "az_count" {
   default     = "2"
 }
 
+
 variable "app-name" {
   description = "App name of service which is being deployed"
   default = "event-notify-app"
